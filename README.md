@@ -535,6 +535,12 @@ python evaluate.py --exp web_dev_v1
 
 Evaluation results are saved in `eval/{experiment_name}/` directory.
 
+### Pipeline Visualization
+
+An interactive web page to visualize the ADDIE multi-agent collaboration pipeline with animated pixel-art agent characters. Simply open `frontend/visualization.html` in your browser — no server required.
+
+Features: play/pause/step controls, speed adjustment (0.5x–4x), keyboard shortcuts (Space, arrow keys), clickable timeline to jump between tasks, and all 6 agents animated in a pixel-art classroom scene.
+
 ### LaTeX-to-PPTX Conversion
 
 Convert generated LaTeX Beamer slides to editable PowerPoint presentations with professional design:

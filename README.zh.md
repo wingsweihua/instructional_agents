@@ -526,6 +526,12 @@ python evaluate.py --exp web_dev_v1
 
 评估结果保存在 `eval/{experiment_name}/` 目录中。
 
+### Pipeline 可视化
+
+交互式网页，使用像素风动画角色可视化 ADDIE 多智能体协作流程。直接在浏览器中打开 `frontend/visualization.html` 即可，无需启动服务器。
+
+功能：播放/暂停/步进控制、速度调节 (0.5x–4x)、键盘快捷键 (Space/方向键)、可点击时间线跳转任务，6 个 agent 在像素教室场景中动画展示协作过程。
+
 ### LaTeX 转 PPTX
 
 将生成的 LaTeX Beamer 幻灯片转换为可编辑的 PowerPoint 演示文稿：
